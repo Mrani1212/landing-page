@@ -158,5 +158,28 @@ h1 {
     align-items: center;
     margin-bottom: 100px;
     margin-top: 100px;
+    color: #f9faf8;
+  }
+
+  .section-four-p {
     color: #e5e7eb;
   }
+.section-four-button {
+    background-color: #3882f8;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-style: solid;
+    border-radius: 8px;
+    width: 120px;
+    height: 30px;
+}
+/* section five ----------------------------------- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
