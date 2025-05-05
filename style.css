@@ -43,7 +43,7 @@ body {
   }
   ul {
     display: flex;
-    gap: 8px;
+    gap: 24px;
   }
 
 h1 {
@@ -55,11 +55,108 @@ h1 {
 .content {
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
-.content-left,.content-right {
+.content-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    padding-left: 18%;
+    /* width: 60%; */
+    
+    
+}
+.content-right {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 10%;
+    
 }
   
+.car-img {
+    margin-bottom: 50px;
+}
+
+.section-one-button {
+    max-width:  80px;
+    height: 30px;
+    margin-top: 8px;
+    background-color: #3882f8;
+    color: #e5e7eb;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    
+}
+/* top is all section one. I will divide my sections so its easier to edit later*/
+
+.section-two {
+    margin-bottom: 40px;
+}
+.header-two {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+  }
+  
+  .info {
+    max-width: 200px;
+  }
+
+  .img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* section three------------------------ */
+
+  .section-three {
+    background-color: #e5e7eb;
+    padding: 100px 150px;
+  }
+  .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    /* padding: 150px 100px 10px 100px ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quotee {
+    display: flex;
+    justify-content: end;
+    color: #1f2937;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  /* section four-------------------------------------------------- */
+  .section-four-body {
+    background-color: #3882f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+    width: 750px;
+    height: 50px;
+    border-radius: 8px;
+  }
+  .section-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: #e5e7eb;
+  }
